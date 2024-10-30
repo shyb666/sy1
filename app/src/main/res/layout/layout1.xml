@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="129dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:src="@drawable/galaxy"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="124dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:src="@drawable/rocket_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="79dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:src="@drawable/rover_icon"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="119dp"
+        android:layout_height="132dp"
+        android:src="@drawable/space_station_icon"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="136dp"
+        android:layout_height="134dp"
+        android:src="@drawable/rover_icon"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="96dp"
+        android:layout_height="86dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="128dp"
+        android:src="@drawable/double_arrows" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="184dp"
+        android:layout_height="64dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <ImageView
+        android:id="@+id/to_mainpage1"
+        android:layout_width="189dp"
+        android:layout_height="57dp"
+        android:src="@drawable/single_arrow"
+        app:layout_constraintEnd_toEndOf="@+id/switch2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/switch2"
+        tools:layout_editor_absoluteY="458dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
